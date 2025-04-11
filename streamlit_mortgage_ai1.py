@@ -1,6 +1,6 @@
 import streamlit as st
 import openai
-import faiss
+import faiss-cpu
 import numpy as np
 import tiktoken
 
