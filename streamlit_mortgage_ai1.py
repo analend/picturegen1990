@@ -1,4 +1,3 @@
-
 import streamlit as st
 import openai
 import faiss
@@ -6,7 +5,7 @@ import numpy as np
 import tiktoken
 
 # Set your OpenAI API key
-openai.api_key = "API"  # Replace with your key
+openai.api_key = "secrets manager"  # Replace with your key
 
 # Helper functions
 def chunk_text(text, max_tokens=500):
